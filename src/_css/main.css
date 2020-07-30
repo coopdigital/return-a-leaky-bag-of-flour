@@ -111,7 +111,7 @@ ul .red-bullet::before {
   100% { background-color: #fff; }
 }
 
-.fake-h2 {
+.coop-h2 {
   font-weight: bold;
   font-size: var(--type-h2-s);
   margin-bottom: var(--spacing-8);
