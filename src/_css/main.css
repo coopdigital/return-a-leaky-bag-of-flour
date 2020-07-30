@@ -101,7 +101,6 @@ ul .red-bullet::before {
   min-height: 100%;
   height: auto;
   background: #fff;
-  animation: blinkingBackground 0.5s ease-in;
 }
 
 @keyframes blinkingBackground {
@@ -121,4 +120,15 @@ ul .red-bullet::before {
     font-size: var(--type-h2-l);
     margin-bottom: var(--spacing-16);
   }
+}
+
+.solid-green {
+  background-color: #0f8482;
+  padding: 32px;
+  margin-bottom: 32px;
+}
+
+.confirmation-text {
+  color: #fff;
+  text-align: center;
 }
