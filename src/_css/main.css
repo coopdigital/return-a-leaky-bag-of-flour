@@ -131,4 +131,24 @@ ul .red-bullet::before {
 .confirmation-text {
   color: #fff;
   text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.red-circle {
+  background-color: #d12430;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 32px;
+}
+
+.green-circle {
+  background-color: #0f8482;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 32px;
 }
