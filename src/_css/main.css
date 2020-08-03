@@ -16,6 +16,27 @@
 @import "@coopdigital/shared-component--membership";
 @import "@coopdigital/shared-component--offers";
 
+
+
+table tbody td,
+.coop-table thead td,
+table tbody th,
+.coop-table thead th {
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 1px;
+    width: 95%;
+    border-bottom: 0 solid var(--color-grey-mid);
+  }
+}
+
+
+
 .coop-logo path {
   fill: var(--color-brand);
 }
