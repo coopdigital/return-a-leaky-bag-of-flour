@@ -6,51 +6,141 @@ id: index
     <div class="coop-l-row">
         <div class="coop-l-column coop-l-large-7 coop-l-medium-12 coop-l-small-12">
             <h1>Accessibility issues in 'Return a leaky bag of flour'</h1>
-            <p>Here is the answer sheet for the 'Return a leaky bag of flour' accessibility testing exercise. There are XX issues in total.</p>
-            <p>Some of these issues would not be WCAG (Web Content Accessibility Guidelines) 2.1 failures. But, they could present issues to users with access needs, and WCAG compliance doesn't neccessarily mean that something is accessible.</p>
-            <h2>Pages</h2>
-            <h3>Contact us</h3>
+            <p>Here is the answer sheet for the 'Return a leaky bag of flour' accessibility testing exercise. There are 16 issues in total.</p>
+            <h2>1. Contact us page</h2>
+            <h3>1.1 Images are described if needed</h3>
+            <p>Overly descriptive or repeated content is very frustrating for people using screen readers.  Leaving the alt tag out altogeher means the full filename is read out instead.</p>
+            <h4>Issues</h4>
             <ul>
-                <li>Headings are scannable and give context</li>
-                <li>Good colour contrast on text</li>
-                <li>Images are described if needed</li>
-                <li>Links & buttons are descriptive</li>
+                <li>Ask our social media team alt text too descriptive.</li>
+                <li>Contact us using our online form link text and alt text are the same.</li>
+                <li>Find store details and opening times has no alt text.</li>
             </ul>
-            <h3>Can I return my flour?</h3>
+
             <ul>
-                <li>Hit area isn't too small for big fingers</li>
-                <li>Good colour contrast on text</li>
-                <li>Images are described if needed</li>
-                <li>Links & buttons are descriptive</li>
-                <li>Lines lengths aren't too long or too short: 45–75 characters per line is acceptable</li>
-                <li>Focus states are clearly visible</li>
-                <li>Align text to the left and keep a consistent layout</li>
+                <li><a href="https://uxdesign.cc/how-to-write-an-image-description-2f30d3bf5546">A guide to writing alt text</a></li>
+                <li><a href="http://microsoft.com/en-us/research/blog/alt-text-that-informs-meeting-the-needs-of-people-who-are-blind-or-low-vision/">Alt text that informs</a></li>
+                <li><a href="https://www.w3.org/TR/WCAG21/#text-alternatives">Success Criterion 1.1.1 Non-text Content</a></li>
             </ul>
-            <h3>Return my flour form</h3>
+
+            <h3>1.2 Links & buttons are descriptive</h3>
+            <p>Click here, read more and learn more are often used for link text. Context is lost when people tab through a page or our zoomed into the content. Having descriptive text also gives the user ????</p>
             <ul>
-                <li>Form fields spacing is sufficient</li>
-                <li>Forms use labelled descriptions</li>
-                <li>Tab order makes sense</li>
-                <li>Use HTML not PDFs or Word</li>
-                <li>Interactions (like opening & closing menus) are described in the code</li>
+                <li>Click here for more link isn’t descriptive</li>
             </ul>
-            <h3>Check answers</h3>
+
             <ul>
-                <li>Document has a language set</li>
-                <li>Follow a logical linear layout</li>
-                <li>There are no keyboard traps</li>
-                <li>Provide another way to do something (e.g contact via phone, letter or email)</li>
-                <li>Use images and diagrams to support text</li>
-                <li>Keep content short clear and simple</li>
-                <li>Write plain English</li>
+                <li><a href="https://www.nngroup.com/articles/learn-more-links/">“Learn More” Links: You Can Do Better</a></li>
+                <li><a href="http://w3.org/TR/WCAG21/#info-and-relationships">Success Criterion 1.3.1 Info and Relationships</a></li>
             </ul>
-            <h3>Confirmation</h3>
+
+            <h3>1.3 Images of text</h3>
+            <p>Images of text don’t scale well and can become blurry when zoomed in. Text can often become to small to read when scaled down to a mobile screen. And page translator cannot translate image text.  </p>
             <ul>
-                <li>Use subtitles or provide transcripts</li>
-                <li>Landmarks are descriptive</li>
-                <li>The content makes sense zoomed in</li>
-                <li>Animations can be stopped and aren't continuous</li>
+                <li>Urgent and latest product recalls is an image</li>
             </ul>
+
+            <ul>
+                <li><a href="https://www.boia.org/blog/why-is-it-important-for-accessibility-to-use-actual-text-instead-of-images-of-text#:~:text=The%20Web%20Content%20Accessibility%20Guidelines,the%20text%20in%20the%20image.">Why Is It Important for Accessibility to Use Actual Text Instead of Images of Text?</a></li>
+                <li><a href="https://www.w3.org/TR/WCAG21/#images-of-text">Success Criterion 1.4.5 Images of Text</a></li>
+            </ul>
+
+            <h3>1.4 Write plain English</h3>
+            <p>Whether time pressuered, stressed or we have low literacy levels. Plain and clear English helps us all.</p>
+            <ul>
+                <li>Urgent and latest product recalls is an image</li>
+            </ul>
+
+            <ul>
+                <li><a href="https://readabilityguidelines.co.uk/clear-language/plain-english/">Readability guidelines - Plain English</a></li>
+                <li><a href="https://accessibility.digital.gov/content-design/plain-language/">Can you quickly understand the main points of the content?</a></li>
+                <li><a href="https://accessibility.digital.gov/content-design/plain-language/">Success Criterion 3.1.5 Reading Level</a></li>
+            </ul>
+
+            <h2>2. Product returns page</h2>
+            <h3>2.1 Lines lengths aren't too long or too short: 45–75 characters per line is acceptable</h3>
+            <p>If a casual reader gets tired of reading a long horizontal line, then they’re more likely to skim the left edge of the text. If an engaged reader gets tired of reading a long horizontal line, then they’re more likely to accidentally read the same line of text twice (a phenomenon known as “doubling”).</p>
+            <ul>
+                <li><a href="https://www.smashingmagazine.com/2014/09/balancing-line-length-font-size-responsive-web-design/">Size Matters: Balancing Line Length And Font Size In Responsive Web Design</a></li>
+                <li><a href="https://vimeo.com/218032647">What it's like to be dyslexic video</a></li>
+                <li><a href="https://www.w3.org/TR/WCAG21/#visual-presentation">Success Criterion 1.4.8 Visual Presentation</a></li>
+            </ul>
+
+            <h3>2.2 Combination of colours shapes and text</h3>
+            <p>Color plays an important part in a design. Colors evoke emotions, feelings, and ideas. Colors can also help strengthen a brand’s message and perception. Yet the power of colors is lost when a user can’t see them or perceives them differently. Color blindness affects roughly 1 in 12 men and 1 in 200 women.</p>
+            <ul>
+                <li><a href="https://www.smashingmagazine.com/2018/04/designing-accessibility-inclusion/#lens-color">Lens Of Color</a></li>
+                <li><a href="https://www.w3.org/TR/WCAG21/#sensory-characteristics">Success Criterion 1.3.3 Sensory Characteristics</a></li>
+            </ul>
+
+            <h2>3. Return my flour form</h2>
+            <h3>3.1 Focus states are clearly visible</h3>
+            <p>Many people exclusively use keyboards to navigate, and rely on the focus state to know where they are on the page. If the focus state isn't visible (or hard to see), it's like trying to use a website with an invisible mouse cursor:</p>
+            <ul>
+                <li><a href="https://www.deque.com/blog/anatomy-of-accessible-forms-best-practices/">Accessible Focus Indicators: Something to :focus on</a></li>
+                <li><a href="https://www.w3.org/TR/WCAG21/#focus-visible">Success Criterion 2.4.6 Headings and Labels</a></li>
+            </ul>
+
+            <h3>3.2 Forms use labelled descriptions</h3>
+            <p>...</p>
+            <ul>
+                <li><a href="https://www.deque.com/blog/anatomy-of-accessible-forms-best-practices/">The Anatomy of Accessible Forms: Best Practices</a></li>
+                <li><a href="https://www.w3.org/TR/WCAG21/#headings-and-labels">Success Criterion 2.4.6 Headings and Labels</a></li>
+            </ul>
+
+            <h3>3.3 Tab order makes sense</h3>
+            <p>Maria has tendonitis and is unable to use a mouse; instead, she uses the keyboard to navigate the web. When focus jumps randomly around the page she gets confused.</p>
+            <ul>
+                <li><a href="https://www.nngroup.com/articles/keyboard-accessibility/">Keyboard-Only Navigation for Improved Accessibility</a></li>
+                <li><a href="https://www.nngroup.com/articles/keyboard-accessibility/">Success Criterion 2.4.3 Focus Order</a></li>
+            </ul>
+
+            <h3>3.4 Interactions (like opening & closing menus) are described in the code</h3>
+            <p>asdaaads</p>
+            <ul>
+                <li><a href="https://www.w3.org/TR/wai-aria-practices-1.1/#disclosure">WAI ARIA - Disclosure Show / hide</a></li>
+            </ul>
+
+            <h3>3.5 Content makes sense zoomed in</h3>
+            <p>There are around ten times as many people who use screen magnifiers than screen readers.</p>
+            <ul>
+                <li><a href="https://axesslab.com/make-site-accessible-screen-magnifiers/">How to make your site accessible for screen magnifiers</a></li>
+                <li><a href="https://www.w3.org/TR/WCAG21/#resize-text">Success Criterion 1.4.4 Resize text</a></li>
+            </ul>
+
+            <h2>4. Confirm your details</h2>
+            <h3>4.1 Good colour contrast on text</h3>
+            <p>When the sun glares on your screen. Or the brightness is turned down on your screen. Good colour contrast benefits us all.</p>
+            <ul>
+                <li><a href="https://contrast-finder.tanaguru.com/">Colour contrast checker</a></li>
+                <li><a href="https://www.smashingmagazine.com/2016/06/improving-color-accessibility-for-color-blind-users/#comments-improving-color-accessibility-for-color-blind-users">Improving The Color Accessibility For Color-Blind Users</a></li>
+                <li><a href="https://www.w3.org/TR/WCAG21/#contrast-minimum">Success Criterion 1.4.3 Contrast minimum</a></li>
+            </ul>
+
+            <h3>4.2 Hit area isn't too small for big fingers</h3>
+            <p>If you’ve ever typed a text message whilst on the go. Or you’ve used your phone with gloves on. Somebody will condered that the button needs to be big enough to be pressed.</p>
+            <ul>
+                <li><a href="https://www.smashingmagazine.com/2012/02/finger-friendly-design-ideal-mobile-touchscreen-target-sizes/">Finger-Friendly Design: Ideal Mobile Touchscreen Target Sizes</a></li>
+                <li><a href="https://www.w3.org/TR/WCAG21/#target-size">Success Criterion 2.5.5 Target Size</a></li>
+            </ul>
+
+            <h2>5. Thank you</h2>
+            <h3>5.1 Align text to the left and keep a consistent layout</h3>
+            <p>Left aligned text is easier to read than centered text for paragraphs. This is because when you center your text, the starting place of each line changes. This forces your users to work harder to find where each line begins to continue reading.</p>
+            <ul>
+                <li><a href="https://www.nngroup.com/articles/zigzag-page-layout/">Align text to the left and keep a consistent layout</a></li>
+                <li><a href="https://www.w3.org/TR/WCAG21/#visual-presentation">Success Criterion 1.4.8 Visuals</a></li>
+            </ul>
+
+            <h3>5.2 Animations can be stopped and aren't continuous</h3>
+            <p>Animated images can really enhance user experience and understanding, but there are limitations. If they're not designed in an accessible way, GIFs can be distracting or could even cause seizures.</p>
+            <ul>
+                <li><a href="https://www.bbc.co.uk/gel/guidelines/how-to-make-accessible-animated-images">How to make accessible animated images</a></li>
+                <li><a href="https://www.w3.org/TR/WCAG21/#pause-stop-hide">Success Criterion 2.2.2 Pause, Stop, Hide</a></li>
+            </ul>
+
+
+
         </div>
     </div>
 </div>
