@@ -5,103 +5,96 @@ id: form
 <div class="coop-l-wrap coop-u-margin-b-64">
     <div class="coop-l-row">
         <div class="coop-l-column coop-l-large-12 coop-l-medium-12 coop-l-small-12">
-            <h1>Keyboard navigation</h1>
-            <form action="confirm-your-details.html" method="get">
-            <form class="coop-form">
-                <fieldset class="coop-form">
-                    <h2>Personal details</h2>
+            <h1>Keyboard navigation demo</h1>
 
-                    <div class="coop-form__row">
-                        <label for="address">Address</label>
-                        <input id="address" type="text" name="address" class="coop-form__medium" tabindex="1">
-                    </div>
+            <form class="coop-form coop-l-large-4 coop-l-medium-6">
+                <h3>Input</h3>
 
-                    <div class="coop-form__row">
-                        <label for="town-or-city">Town or city</label>
-                        <input id="town-or-city" type="text" name="town-or-city" class="coop-form__medium">
-                    </div>
-
-                    <div class="coop-form__row">
-                        <label for="county">County</label>
-                        <input id="county" type="text" name="county" class="coop-form__medium">
-                    </div>
-                    <div class="coop-form__row">
-                        <label for="town-or-city">Postcode</label>
-                        <input id="postcode" type="text" name="postcode" class="coop-form__small">
-                    </div>
-                </fieldset>
-
-                <div class="coop-form">
-                    <h2>Product details</h2>
-                    <fieldset class="coop-c-form-choice">
-                        <legend class="coop-c-form-choice__legend">Size of flour bag:</legend>
-                        <div class="coop-c-form-choice">
-                            <input type="radio" name="option" id="option-1" value="500g" class="coop-c-form-choice__input coop-c-form-choice__input--radio-button">
-                            <label class="coop-c-form-choice__label" for="option-1">500g</label>
-                        </div>
-                        <div class="coop-c-form-choice">
-                            <input type="radio" name="option" id="option-2" value="1kg" class="coop-c-form-choice__input coop-c-form-choice__input--radio-button">
-                            <label class="coop-c-form-choice__label" for="-2">1kg</label>
-                        </div>
-                        <div class="coop-c-form-choice">
-                            <input type="radio" name="option" id="option-3" value="2kg" class="coop-c-form-choice__input coop-c-form-choice__input--radio-button">
-                            <label class="coop-c-form-choice__label" for="option-3">2kg</label>
-                        </div>
-                        <div class="coop-c-form-choice">
-                            <input type="radio" name="option" id="option-4" value="100kg" class="coop-c-form-choice__input coop-c-form-choice__input--radio-button">
-                            <label class="coop-c-form-choice__label" for="option-4">100kg</label>
-                        </div>
-                    </fieldset>
-                    </div>
-
-                    <div class="coop-form coop-u-margin-t-32">
-                        <h2>Eligibility criteria</h2>
-                            <fieldset class="coop-c-form-choice">
-                                <div class="coop-l-row">
-                                    <div class="coop-l-column coop-l-large-8 coop-l-medium-8 coop-l-small-12 coop-u-flex">
-                                        <p> Did you buy the flour in the last 2 weeks?</p>
-                                    </div>
-                                    <div class="coop-l-column coop-l-large-4 coop-l-medium-4 coop-l-small-12 coop-u-flex">
-                                        <div class="coop-c-form-choice coop-l-column coop-l-large-6 coop-l-medium-6 coop-l-small-12 coop-u-flex">
-                                            <input type="radio" name="option-1" id="Yes-1" value="Yes" class="coop-c-form-choice__input coop-c-form-choice__input--radio-button">
-                                            <label class="coop-c-form-choice__label" for="Yes-1">Yes</label>
-                                        </div>
-                                        <div class="coop-c-form-choice coop-l-column coop-l-large-6 coop-l-medium-6 coop-l-small-12 coop-u-flex">
-                                            <input type="radio" name="option-1" id="No-1" value="No" class="coop-c-form-choice__input coop-c-form-choice__input--radio-button">
-                                            <label class="coop-c-form-choice__label" for="No-1">No</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                </fieldset>
-
-                                <fieldset class="coop-c-form-choice">
-                                <div class="coop-l-row">
-                                    <div class="coop-l-column coop-l-large-8 coop-l-medium-8 coop-l-small-12 coop-u-flex">
-                                        <p> Do you have your receipt?</p>
-                                    </div>
-                                    <div class="coop-l-column coop-l-large-4 coop-l-medium-4 coop-l-small-12 coop-u-flex">
-                                        <div class="coop-c-form-choice coop-l-column coop-l-large-6 coop-l-medium-6 coop-l-small-12 coop-u-flex">
-                                            <input type="radio" name="option-2" id="Yes-2" value="Yes" class="coop-c-form-choice__input coop-c-form-choice__input--radio-button">
-                                            <label class="coop-c-form-choice__label" for="Yes-2">Yes</label>
-                                        </div>
-                                        <div class="coop-c-form-choice coop-l-column coop-l-large-6 coop-l-medium-6 coop-l-small-12 coop-u-flex">
-                                            <input type="radio" name="option-2" id="No-2" value="No" class="coop-c-form-choice__input coop-c-form-choice__input--radio-button">
-                                            <label class="coop-c-form-choice__label" for="No-2">No</label>
-                                        </div>
-                                    </div>
-                                </div>
-                            </fieldset>
-                    </div>
-
-                <button class="coop-btn coop-btn--primary coop-u-margin-resp-b-32-16">Submit</button>
-                <p><a href="#" id="toggle" class="toggle">&#9660; View terms and conditions</a></p>
-                <div id="content">
-                    <div>
-                        <p>A. THIS SITE MAY CONTAIN INACCURACIES AND TYPOGRAPHICAL ERRORS. WE DOES NOT WARRANT THE ACCURACY OR COMPLETENESS OF THE MATERIALS OR THE RELIABILITY OF ANY ADVICE, OPINION, STATEMENT OR OTHER INFORMATION DISPLAYED OR DISTRIBUTED THROUGH THE SITE. YOU EXPRESSLY UNDERSTAND AND AGREE THAT: (i) YOUR USE OF THE SITE, INCLUDING ANY RELIANCE ON ANY SUCH OPINION, ADVICE, STATEMENT, MEMORANDUM, OR INFORMATION CONTAINED HEREIN, SHALL BE AT YOUR SOLE RISK; (ii) THE SITE IS PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS; (iii) EXCEPT AS EXPRESSLY PROVIDED HEREIN WE DISCLAIM ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, WORKMANLIKE EFFORT, TITLE AND NON-INFRINGEMENT; (iv) WE MAKE NO WARRANTY WITH RESPECT TO THE RESULTS THAT MAY BE OBTAINED FROM THIS SITE, THE PRODUCTS OR SERVICES ADVERTISED OR OFFERED OR MERCHANTS INVOLVED; (v) ANY MATERIAL DOWNLOADED OR OTHERWISE OBTAINED THROUGH THE USE OF THE SITE IS DONE AT YOUR OWN DISCRETION AND RISK; and (vi) YOU WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM OR FOR ANY LOSS OF DATA THAT RESULTS FROM THE DOWNLOAD OF ANY SUCH MATERIAL.</p>
-                        <p>B. YOU UNDERSTAND AND AGREE THAT UNDER NO CIRCUMSTANCES, INCLUDING, BUT NOT LIMITED TO, NEGLIGENCE, SHALL WE BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, PUNITIVE OR CONSEQUENTIAL DAMAGES THAT RESULT FROM THE USE OF, OR THE INABILITY TO USE, ANY OF OUR SITES OR MATERIALS OR FUNCTIONS ON ANY SUCH SITE, EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. THE FOREGOING LIMITATIONS SHALL APPLY NOTWITHSTANDING ANY FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED REMEDY.</p>
-                    </div>
+                <div class="coop-form__row">
+                    <label for="full-name-1" class="coop-form__label">First name</label>
+                    <input type="text" name="full-name-1" id="full-name-1" class="coop-form__field coop-form__input">
+                </div>
+                <div class="coop-form__row">
+                    <label for="full-name-1" class="coop-form__label">Surname</label>
+                    <input type="text" name="full-name-1" id="full-name-1" class="coop-form__field coop-form__input">
                 </div>
             </form>
+
+            <form class="coop-form coop-l-large-4 coop-l-medium-6">
+                <h3>Textarea</h3>
+
+                <div class="coop-form__row">
+                    <label for="feedback-1" class="coop-form__label">Tell us what you liked or what we can improve</label>
+                    <textarea id="feedback-1" cols="30" rows="4" class="coop-form__field coop-form__textarea"></textarea>
+                </div>
+            </form>
+
+            <form class="coop-form coop-l-large-4 coop-l-medium-6">
+                <h3>Select dropdown</h3>
+
+                <div class="coop-form__row">
+                    <label class="coop-form__label" for="sort-by-1">Sort by:</label>
+                    <select id="sort-by-1" class="coop-form__field coop-form__select">
+                        <option value="relevancy">Relevancy</option>
+                        <option value="price-asc">Price: Low to high</option>
+                        <option value="price-desc">Price: High to low</option>
+                    </select>
+                </div>
+            </form>
+
+            <form class="coop-form coop-c-form-choice">
+                <h3>Checkboxes and radios</h3>
+
+                <div class="coop-form__row">
+                    <fieldset class="coop-c-form-choice">
+                        <legend class="coop-form__legend coop-c-form-choice__legend">Do you own:</legend>
+                        <div class="coop-c-form-choice">
+                            <input type="checkbox" name="checkbox-1" id="checkbox-1-1" value="1" class="coop-form__field coop-form__checkbox coop-c-form-choice__input coop-c-form-choice__input--checkbox">
+                            <label for="checkbox-1-1" class="coop-form__label coop-c-form-choice__label">a business</label>
+                        </div>
+                        <div class="coop-c-form-choice">
+                            <input type="checkbox" name="checkbox-1" id="checkbox-1-2" value="2" class="coop-form__field coop-form__checkbox coop-c-form-choice__input coop-c-form-choice__input--checkbox">
+                            <label for="checkbox-1-2" class="coop-form__label coop-c-form-choice__label">agricultural property</label>
+                        </div>
+                        <div class="coop-c-form-choice">
+                            <input type="checkbox" name="checkbox-1" id="checkbox-1-3" value="3" class="coop-form__field coop-form__checkbox coop-c-form-choice__input coop-c-form-choice__input--checkbox">
+                            <label for="checkbox-1-3" class="coop-form__label coop-c-form-choice__label">foreign property</label>
+                        </div>
+                        <div class="coop-c-form-choice">
+                            <input type="checkbox" name="checkbox-1" id="checkbox-1-4" value="4" class="coop-form__field coop-form__checkbox coop-c-form-choice__input coop-c-form-choice__input--checkbox">
+                            <label for="checkbox-1-4" class="coop-form__label coop-c-form-choice__label">trademarks or patents</label>
+                        </div>
+                    </fieldset>
+                </div>
+
+                <div class="coop-form__row">
+                    <fieldset class="coop-c-form-choice">
+                        <legend class="coop-form__legend coop-c-form-choice__legend">Type of delivery</legend>
+                        <div class="coop-c-form-choice">
+                            <input type="radio" name="radio-1" id="radio-1-1" value="1" class="coop-form__field coop-form__radio coop-c-form-choice__input coop-c-form-choice__input--radio-button">
+                            <label class="coop-form__label coop-c-form-choice__label" for="radio-1-1">Free delivery</label>
+                        </div>
+                        <div class="coop-c-form-choice">
+                            <input type="radio" name="radio-1" id="radio-1-2" value="2" class="coop-form__field coop-form__radio coop-c-form-choice__input coop-c-form-choice__input--radio-button">
+                            <label class="coop-form__label coop-c-form-choice__label" for="radio-1-2">Next day delivery — £4.99</label>
+                        </div>
+                        <div class="coop-c-form-choice">
+                            <input type="radio" name="radio-1" id="radio-1-3" value="3" class="coop-form__field coop-form__radio coop-c-form-choice__input coop-c-form-choice__input--radio-button">
+                            <label class="coop-form__label coop-c-form-choice__label" for="radio-1-3">Collection</label>
+                        </div>
+                    </fieldset>
+                </div>
+            </form>
+
+            <p>&#9660; <a href="#" id="toggle" class="toggle">View terms and conditions</a></p>
+            <div id="content">
+                <div>
+                    <p>The Co-operative Group has taken the greatest of care to ensure the accuracy of any content on this website, but cannot accept responsibility for any inaccuracies, omissions, or errors on our websites or on any sites to which the groups' websites may be linked.</p>
+                    <p>Varieties are as stocked. All offers are subject to availability while stocks last. Please see in-store for details. Prices are correct at time of publishing. Equivalent prices relate to promotional prices.</p>
+                    <p>Permission must be obtained from The Co-operative Group to use any information available on our websites.</p>
+                </div>
+            </div>
+            <button class="coop-btn coop-btn--primary coop-u-margin-b-64 coop-u-margin-t-32">Submit</button>
 
         </div>
     </div>

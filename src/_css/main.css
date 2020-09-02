@@ -121,7 +121,7 @@ ul .red-bullet::before {
 }
 
 #content.is--open {
-  min-height: 100%;
+  min-height: 0;
   height: auto;
   background: #fff;
 }
