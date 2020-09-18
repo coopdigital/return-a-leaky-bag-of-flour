@@ -113,6 +113,11 @@ ul .red-bullet::before {
   outline: none;
 }
 
+.focus-none {
+  outline: none;
+  border-color: none;
+}
+
 #content {
   overflow: hidden;
   min-height: 0;
