@@ -16,8 +16,6 @@
 @import "@coopdigital/shared-component--membership";
 @import "@coopdigital/shared-component--offers";
 
-
-
 table tbody td,
 .coop-table thead td,
 table tbody th,
@@ -114,8 +112,13 @@ ul .red-bullet::before {
 }
 
 .focus-none {
-  outline: none;
-  border-color: none;
+  outline: none !important;
+}
+
+.button-focus-none {
+  outline: none !important;
+  background: var(--color-button-green-primary) !important;
+  text-decoration: none !important;
 }
 
 #content {
@@ -179,4 +182,8 @@ ul .red-bullet::before {
   border-radius: 50%;
   display: inline-block;
   margin-right: 32px;
+}
+
+.text-bold {
+  font-weight: bold;
 }
