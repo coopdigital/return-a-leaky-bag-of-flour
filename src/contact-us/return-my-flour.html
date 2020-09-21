@@ -7,25 +7,27 @@ id: form
         <div class="coop-l-column coop-l-large-12 coop-l-medium-12 coop-l-small-12">
             <h1>Product return eligibility check</h1>
 
-            <div class="coop-form coop-u-margin-t-32">
-                <h2>Eligibility criteria</h2>
-                    <fieldset class="coop-c-form-choice">
-                        <div class="coop-l-row">
-                            <div class="coop-l-column coop-l-large-8 coop-l-medium-8 coop-l-small-12 coop-u-flex">
-                                <p> Did you buy the flour in the last 2 weeks?</p>
-                            </div>
-                            <div class="coop-l-column coop-l-large-4 coop-l-medium-4 coop-l-small-12 coop-u-flex">
-                                <div class="coop-c-form-choice coop-l-column coop-l-large-6 coop-l-medium-6 coop-l-small-12 coop-u-flex">
-                                    <input type="radio" name="option-1" id="Yes-1" value="Yes" class="coop-c-form-choice__input coop-c-form-choice__input--radio-button">
-                                    <label class="coop-c-form-choice__label" for="Yes-1">Yes</label>
+            <form action="confirm-your-details.html" method="get">
+
+                <div class="coop-form coop-u-margin-t-32">
+                    <h2>Eligibility criteria</h2>
+                        <fieldset class="coop-c-form-choice">
+                            <div class="coop-l-row">
+                                <div class="coop-l-column coop-l-large-8 coop-l-medium-8 coop-l-small-12 coop-u-flex">
+                                    <p> Did you buy the flour in the last 2 weeks?</p>
                                 </div>
-                                <div class="coop-c-form-choice coop-l-column coop-l-large-6 coop-l-medium-6 coop-l-small-12 coop-u-flex">
-                                    <input type="radio" name="option-1" id="No-1" value="No" class="coop-c-form-choice__input coop-c-form-choice__input--radio-button">
-                                    <label class="coop-c-form-choice__label" for="No-1">No</label>
+                                <div class="coop-l-column coop-l-large-4 coop-l-medium-4 coop-l-small-12 coop-u-flex">
+                                    <div class="coop-c-form-choice coop-l-column coop-l-large-6 coop-l-medium-6 coop-l-small-12 coop-u-flex">
+                                        <input type="radio" name="option-1" id="Yes-1" value="Yes" class="coop-c-form-choice__input coop-c-form-choice__input--radio-button">
+                                        <label class="coop-c-form-choice__label" for="Yes-1">Yes</label>
+                                    </div>
+                                    <div class="coop-c-form-choice coop-l-column coop-l-large-6 coop-l-medium-6 coop-l-small-12 coop-u-flex">
+                                        <input type="radio" name="option-1" id="No-1" value="No" class="coop-c-form-choice__input coop-c-form-choice__input--radio-button">
+                                        <label class="coop-c-form-choice__label" for="No-1">No</label>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </fieldset>
+                        </fieldset>
 
                 <div class="coop-form">
                     <fieldset class="coop-c-form-choice">
@@ -47,54 +49,52 @@ id: form
                     </fieldset>
                 </div>
 
+                <div class="coop-form">
+                    <h2>Product details</h2>
+                    <fieldset class="coop-c-form-choice">
+                        <legend class="coop-c-form-choice__legend">Size of flour bag:</legend>
+                        <div class="coop-c-form-choice">
+                            <input type="radio" name="option" id="option-1" value="500g" class="coop-c-form-choice__input coop-c-form-choice__input--radio-button">
+                            <label class="coop-c-form-choice__label" for="option-1">500g</label>
+                        </div>
+                        <div class="coop-c-form-choice">
+                            <input type="radio" name="option" id="option-2" value="1kg" class="coop-c-form-choice__input coop-c-form-choice__input--radio-button">
+                            <label class="coop-c-form-choice__label" for="-2">1kg</label>
+                        </div>
+                        <div class="coop-c-form-choice">
+                            <input type="radio" name="option" id="option-3" value="2kg" class="coop-c-form-choice__input coop-c-form-choice__input--radio-button">
+                            <label class="coop-c-form-choice__label" for="option-3">2kg</label>
+                        </div>
+                        <div class="coop-c-form-choice">
+                            <input type="radio" name="option" id="option-4" value="100kg" class="coop-c-form-choice__input coop-c-form-choice__input--radio-button">
+                            <label class="coop-c-form-choice__label" for="option-4">100kg</label>
+                        </div>
+                    </fieldset>
+                </div>
 
-            <div class="coop-form">
-                <h2>Product details</h2>
-                <fieldset class="coop-c-form-choice">
-                    <legend class="coop-c-form-choice__legend">Size of flour bag:</legend>
-                    <div class="coop-c-form-choice">
-                        <input type="radio" name="option" id="option-1" value="500g" class="coop-c-form-choice__input coop-c-form-choice__input--radio-button">
-                        <label class="coop-c-form-choice__label" for="option-1">500g</label>
-                    </div>
-                    <div class="coop-c-form-choice">
-                        <input type="radio" name="option" id="option-2" value="1kg" class="coop-c-form-choice__input coop-c-form-choice__input--radio-button">
-                        <label class="coop-c-form-choice__label" for="-2">1kg</label>
-                    </div>
-                    <div class="coop-c-form-choice">
-                        <input type="radio" name="option" id="option-3" value="2kg" class="coop-c-form-choice__input coop-c-form-choice__input--radio-button">
-                        <label class="coop-c-form-choice__label" for="option-3">2kg</label>
-                    </div>
-                    <div class="coop-c-form-choice">
-                        <input type="radio" name="option" id="option-4" value="100kg" class="coop-c-form-choice__input coop-c-form-choice__input--radio-button">
-                        <label class="coop-c-form-choice__label" for="option-4">100kg</label>
-                    </div>
-                </fieldset>
-            </div>
+                <form class="coop-form">
+                    <fieldset class="coop-form">
+                        <h2>Personal details</h2>
 
-                    <form action="confirm-your-details.html" method="get">
-                    <form class="coop-form">
-                        <fieldset class="coop-form">
-                            <h2>Personal details</h2>
+                        <div class="coop-form__row">
+                            <label for="address">Address</label>
+                            <input id="address" type="text" name="address" class="focus-none coop-form__medium">
+                        </div>
 
-                            <div class="coop-form__row">
-                                <label for="address">Address</label>
-                                <input id="address" type="text" name="address" class="focus-none coop-form__medium">
-                            </div>
+                        <div class="coop-form__row">
+                            <label for="town-or-city">Town or city</label>
+                            <input id="town-or-city" type="text" name="town-or-city" class="focus-none coop-form__medium">
+                        </div>
 
-                            <div class="coop-form__row">
-                                <label for="town-or-city">Town or city</label>
-                                <input id="town-or-city" type="text" name="town-or-city" class="focus-none coop-form__medium">
-                            </div>
-
-                            <div class="coop-form__row">
-                                <label for="county">County</label>
-                                <input id="county" type="text" name="county" class="focus-none coop-form__medium">
-                            </div>
-                            <div class="coop-form__row">
-                                <label for="town-or-city">Postcode</label>
-                                <input id="postcode" type="text" name="postcode" class="focus-none coop-form__small">
-                            </div>
-                        </fieldset>
+                        <div class="coop-form__row">
+                            <label for="county">County</label>
+                            <input id="county" type="text" name="county" class="focus-none coop-form__medium">
+                        </div>
+                        <div class="coop-form__row">
+                            <label for="town-or-city">Postcode</label>
+                            <input id="postcode" type="text" name="postcode" class="focus-none coop-form__small">
+                        </div>
+                    </fieldset>
                 </div>
 
                 <button class="coop-btn coop-btn--primary coop-u-margin-resp-b-32-16">Submit</button>
@@ -105,6 +105,7 @@ id: form
                         <p>B. YOU UNDERSTAND AND AGREE THAT UNDER NO CIRCUMSTANCES, INCLUDING, BUT NOT LIMITED TO, NEGLIGENCE, SHALL WE BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, PUNITIVE OR CONSEQUENTIAL DAMAGES THAT RESULT FROM THE USE OF, OR THE INABILITY TO USE, ANY OF OUR SITES OR MATERIALS OR FUNCTIONS ON ANY SUCH SITE, EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. THE FOREGOING LIMITATIONS SHALL APPLY NOTWITHSTANDING ANY FAILURE OF ESSENTIAL PURPOSE OF ANY LIMITED REMEDY.</p>
                     </div>
                 </div>
+
             </form>
 
         </div>
