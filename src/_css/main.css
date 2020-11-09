@@ -153,12 +153,6 @@ ul .red-bullet::before {
   }
 }
 
-.solid-green {
-  background-color: #0f8482;
-  padding: 32px;
-  margin-bottom: 32px;
-}
-
 .confirmation-text {
   color: #fff;
   text-align: center;
@@ -166,24 +160,22 @@ ul .red-bullet::before {
   font-weight: bold;
 }
 
-.red-circle {
-  background-color: #d12430;
-  height: 16px;
-  width: 16px;
-  border-radius: 50%;
-  display: inline-block;
-  margin-right: 32px;
-}
-
-.green-circle {
-  background-color: #0f8482;
-  height: 16px;
-  width: 16px;
-  border-radius: 50%;
-  display: inline-block;
-  margin-right: 32px;
-}
-
 .text-bold {
   font-weight: bold;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #4e5878;
+  color: white;
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.brand-blue {
+  color: #00b1e7;
 }
