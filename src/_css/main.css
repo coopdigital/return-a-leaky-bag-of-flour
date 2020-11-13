@@ -183,6 +183,7 @@ ul .red-bullet::before {
 .feedback-form {
   position: fixed;
   bottom: 0;
+  background-color: #fff;
   color: #282828;
   padding-top: 32px;
   padding-bottom: 8px;
