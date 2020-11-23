@@ -182,18 +182,20 @@ ul .red-bullet::before {
 
 .feedback-form {
   position: fixed;
-  background-color: #fff;
+  background-color: #dde9ed;
   color: #282828;
-  padding: 48px 8px 16px;
+  padding: 64px 8px 32px;
   border-radius: 8px;
   box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.3);
-  width: calc(100vw - 20%);
-  height: calc(100vh - 70%);
+  width: calc(100vw - 15%);
+  height: calc(100vh - 75%);
+  border-left: 8px solid #fff;
+  margin-bottom: 32px;
 }
 
 .icon-position {
   float: right;
-  margin-top: -16px;
+  margin-top: -32px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
